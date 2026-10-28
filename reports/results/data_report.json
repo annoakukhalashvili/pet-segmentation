@@ -1,0 +1,144 @@
+{
+  "trainval": {
+    "num_records": 3680,
+    "num_usable": 3680,
+    "species_counts": {
+      "cat": 1188,
+      "dog": 2492
+    },
+    "num_breeds": 37,
+    "breed_counts": {
+      "Abyssinian": 100,
+      "Bengal": 100,
+      "Birman": 100,
+      "Bombay": 96,
+      "British_Shorthair": 100,
+      "Egyptian_Mau": 93,
+      "Maine_Coon": 100,
+      "Persian": 100,
+      "Ragdoll": 100,
+      "Russian_Blue": 100,
+      "Siamese": 99,
+      "Sphynx": 100,
+      "american_bulldog": 100,
+      "american_pit_bull_terrier": 100,
+      "basset_hound": 100,
+      "beagle": 100,
+      "boxer": 100,
+      "chihuahua": 100,
+      "english_cocker_spaniel": 96,
+      "english_setter": 100,
+      "german_shorthaired": 100,
+      "great_pyrenees": 100,
+      "havanese": 100,
+      "japanese_chin": 100,
+      "keeshond": 100,
+      "leonberger": 100,
+      "miniature_pinscher": 100,
+      "newfoundland": 96,
+      "pomeranian": 100,
+      "pug": 100,
+      "saint_bernard": 100,
+      "samoyed": 100,
+      "scottish_terrier": 100,
+      "shiba_inu": 100,
+      "staffordshire_bull_terrier": 100,
+      "wheaten_terrier": 100,
+      "yorkshire_terrier": 100
+    },
+    "image_width": {
+      "min": 114,
+      "median": 500,
+      "max": 3264
+    },
+    "image_height": {
+      "min": 108,
+      "median": 375,
+      "max": 2606
+    },
+    "pixel_fraction": {
+      "background": 0.5988,
+      "pet": 0.2917,
+      "boundary": 0.1095
+    },
+    "errors": {},
+    "warnings": {
+      "Egyptian_Mau_14": [
+        "image mode is RGBA, will be converted to RGB"
+      ],
+      "Egyptian_Mau_186": [
+        "image mode is RGBA, will be converted to RGB"
+      ]
+    }
+  },
+  "test": {
+    "num_records": 3669,
+    "num_usable": 3669,
+    "species_counts": {
+      "cat": 1183,
+      "dog": 2486
+    },
+    "num_breeds": 37,
+    "breed_counts": {
+      "Abyssinian": 98,
+      "Bengal": 100,
+      "Birman": 100,
+      "Bombay": 88,
+      "British_Shorthair": 100,
+      "Egyptian_Mau": 97,
+      "Maine_Coon": 100,
+      "Persian": 100,
+      "Ragdoll": 100,
+      "Russian_Blue": 100,
+      "Siamese": 100,
+      "Sphynx": 100,
+      "american_bulldog": 100,
+      "american_pit_bull_terrier": 100,
+      "basset_hound": 100,
+      "beagle": 100,
+      "boxer": 99,
+      "chihuahua": 100,
+      "english_cocker_spaniel": 100,
+      "english_setter": 100,
+      "german_shorthaired": 100,
+      "great_pyrenees": 100,
+      "havanese": 100,
+      "japanese_chin": 100,
+      "keeshond": 99,
+      "leonberger": 100,
+      "miniature_pinscher": 100,
+      "newfoundland": 100,
+      "pomeranian": 100,
+      "pug": 100,
+      "saint_bernard": 100,
+      "samoyed": 100,
+      "scottish_terrier": 99,
+      "shiba_inu": 100,
+      "staffordshire_bull_terrier": 89,
+      "wheaten_terrier": 100,
+      "yorkshire_terrier": 100
+    },
+    "image_width": {
+      "min": 137,
+      "median": 500,
+      "max": 1646
+    },
+    "image_height": {
+      "min": 103,
+      "median": 375,
+      "max": 2160
+    },
+    "pixel_fraction": {
+      "background": 0.5796,
+      "pet": 0.2985,
+      "boundary": 0.1218
+    },
+    "errors": {},
+    "warnings": {
+      "Abyssinian_5": [
+        "image mode is RGBA, will be converted to RGB"
+      ]
+    }
+  },
+  "trainval_test_overlap": []
+}

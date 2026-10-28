@@ -1,0 +1,56 @@
+{
+  "threads": 4,
+  "runs": 50,
+  "warmup": 10,
+  "torch": "2.14.1",
+  "results": [
+    {
+      "config": "pytorch@320",
+      "backend": "pytorch",
+      "input_size": 320,
+      "median_latency_ms": 103.3,
+      "p90_latency_ms": 107.5,
+      "model_mb": 44.3,
+      "val_mean_iou": 0.788,
+      "val_foreground_iou": 0.9079,
+      "val_iou_boundary": 0.5543,
+      "speedup_vs_baseline": 1.0
+    },
+    {
+      "config": "onnxruntime@320",
+      "backend": "onnxruntime",
+      "input_size": 320,
+      "median_latency_ms": 33.9,
+      "p90_latency_ms": 34.4,
+      "model_mb": 44.1,
+      "val_mean_iou": 0.788,
+      "val_foreground_iou": 0.9079,
+      "val_iou_boundary": 0.5543,
+      "speedup_vs_baseline": 3.05
+    },
+    {
+      "config": "pytorch@224",
+      "backend": "pytorch",
+      "input_size": 224,
+      "median_latency_ms": 71.0,
+      "p90_latency_ms": 73.1,
+      "model_mb": 44.3,
+      "val_mean_iou": 0.7402,
+      "val_foreground_iou": 0.8787,
+      "val_iou_boundary": 0.4779,
+      "speedup_vs_baseline": 1.45
+    },
+    {
+      "config": "onnxruntime@224",
+      "backend": "onnxruntime",
+      "input_size": 224,
+      "median_latency_ms": 24.3,
+      "p90_latency_ms": 25.6,
+      "model_mb": 44.1,
+      "val_mean_iou": 0.7402,
+      "val_foreground_iou": 0.8787,
+      "val_iou_boundary": 0.4779,
+      "speedup_vs_baseline": 4.25
+    }
+  ]
+}

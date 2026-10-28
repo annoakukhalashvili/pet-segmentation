@@ -1,0 +1,62 @@
+[
+  {
+    "model": "E0 zero-shot",
+    "key": "e0",
+    "val_mean_iou": 0.5499,
+    "mean_iou": 0.545,
+    "mean_dice": 0.5987,
+    "foreground_iou": 0.8285,
+    "pixel_accuracy": 0.8539,
+    "iou_background": 0.8843,
+    "dice_background": 0.9386,
+    "iou_pet": 0.7507,
+    "dice_pet": 0.8576,
+    "iou_boundary": 0.0,
+    "dice_boundary": 0.0
+  },
+  {
+    "model": "E1 head only",
+    "key": "e1_head_only",
+    "val_mean_iou": 0.777,
+    "mean_iou": 0.7836,
+    "mean_dice": 0.8687,
+    "foreground_iou": 0.9071,
+    "pixel_accuracy": 0.9225,
+    "iou_background": 0.9311,
+    "dice_background": 0.9643,
+    "iou_pet": 0.8628,
+    "dice_pet": 0.9264,
+    "iou_boundary": 0.557,
+    "dice_boundary": 0.7155
+  },
+  {
+    "model": "E2 full fine-tune",
+    "key": "e2_full_finetune",
+    "val_mean_iou": 0.788,
+    "mean_iou": 0.7958,
+    "mean_dice": 0.8773,
+    "foreground_iou": 0.9132,
+    "pixel_accuracy": 0.928,
+    "iou_background": 0.9357,
+    "dice_background": 0.9668,
+    "iou_pet": 0.8735,
+    "dice_pet": 0.9325,
+    "iou_boundary": 0.5781,
+    "dice_boundary": 0.7326
+  },
+  {
+    "model": "E3 weighted loss",
+    "key": "e3_weighted_loss",
+    "val_mean_iou": 0.7594,
+    "mean_iou": 0.7745,
+    "mean_dice": 0.8638,
+    "foreground_iou": 0.8912,
+    "pixel_accuracy": 0.9086,
+    "iou_background": 0.913,
+    "dice_background": 0.9545,
+    "iou_pet": 0.8515,
+    "dice_pet": 0.9198,
+    "iou_boundary": 0.5589,
+    "dice_boundary": 0.717
+  }
+]

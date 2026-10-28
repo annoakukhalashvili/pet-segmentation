@@ -1,0 +1,18 @@
+{
+  "experiment": "E0_zero_shot",
+  "split": "val",
+  "num_images": 549,
+  "image_size": 320,
+  "device": "mps",
+  "seconds_total": 28.5,
+  "mean_iou": 0.5499,
+  "mean_dice": 0.6016,
+  "foreground_iou": 0.8385,
+  "pixel_accuracy": 0.8642,
+  "iou_background": 0.8964,
+  "dice_background": 0.9454,
+  "iou_pet": 0.7533,
+  "dice_pet": 0.8593,
+  "iou_boundary": 0.0,
+  "dice_boundary": 0.0
+}
