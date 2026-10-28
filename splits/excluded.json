@@ -1,0 +1,158 @@
+{
+  "Bombay_107": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "Bombay_132",
+    "distance": 2
+  },
+  "boxer_162": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "boxer_172",
+    "distance": 2
+  },
+  "keeshond_101": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "keeshond_162",
+    "distance": 0
+  },
+  "Abyssinian_151": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "Abyssinian_99",
+    "distance": 1
+  },
+  "Bombay_146": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "Bombay_82",
+    "distance": 0
+  },
+  "British_Shorthair_160": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "British_Shorthair_278",
+    "distance": 0
+  },
+  "Egyptian_Mau_138": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "Egyptian_Mau_219",
+    "distance": 1
+  },
+  "Egyptian_Mau_186": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "Egyptian_Mau_6",
+    "distance": 1
+  },
+  "german_shorthaired_150": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "german_shorthaired_3",
+    "distance": 0
+  },
+  "german_shorthaired_179": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "german_shorthaired_19",
+    "distance": 0
+  },
+  "great_pyrenees_173": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "great_pyrenees_89",
+    "distance": 0
+  },
+  "japanese_chin_137": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "japanese_chin_85",
+    "distance": 0
+  },
+  "japanese_chin_140": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "japanese_chin_88",
+    "distance": 0
+  },
+  "japanese_chin_158": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "japanese_chin_81",
+    "distance": 0
+  },
+  "japanese_chin_176": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "japanese_chin_20",
+    "distance": 0
+  },
+  "japanese_chin_187": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "japanese_chin_200",
+    "distance": 0
+  },
+  "japanese_chin_188": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "japanese_chin_78",
+    "distance": 0
+  },
+  "keeshond_140": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "keeshond_97",
+    "distance": 0
+  },
+  "keeshond_141": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "keeshond_47",
+    "distance": 0
+  },
+  "keeshond_152": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "keeshond_99",
+    "distance": 0
+  },
+  "keeshond_175": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "keeshond_27",
+    "distance": 0
+  },
+  "leonberger_187": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "leonberger_1",
+    "distance": 0
+  },
+  "leonberger_189": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "leonberger_2",
+    "distance": 0
+  },
+  "newfoundland_149": {
+    "reason": "near-duplicate",
+    "removed_from": "train",
+    "duplicate_of": "newfoundland_2",
+    "distance": 0
+  },
+  "British_Shorthair_186": {
+    "reason": "near-duplicate",
+    "removed_from": "val",
+    "duplicate_of": "British_Shorthair_271",
+    "distance": 0
+  },
+  "german_shorthaired_180": {
+    "reason": "near-duplicate",
+    "removed_from": "val",
+    "duplicate_of": "german_shorthaired_20",
+    "distance": 0
+  }
+}
