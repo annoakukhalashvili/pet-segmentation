@@ -1,0 +1,7 @@
+# E1: fine-tune only the segmentation head; the pretrained backbone is frozen.
+# Hypothesis: adapting the head alone already beats the zero-shot baseline E0
+# and learns the new boundary class.
+name: e1_head_only
+freeze_backbone: true
+lr_head: 0.001
+epochs: 10

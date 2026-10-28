@@ -1,0 +1,7 @@
+# E2: fine-tune the whole network. Only change vs E1: the backbone is trainable.
+# Hypothesis: adapting the backbone features too gives a higher validation mean IoU.
+name: e2_full_finetune
+freeze_backbone: false
+lr_head: 0.001
+lr_backbone: 0.0001
+epochs: 10

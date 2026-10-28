@@ -1,0 +1,9 @@
+# E3: same as E2, plus median-frequency class weights in the loss.
+# Only change vs E2: class_weighting.
+# Hypothesis: weighting the rare boundary class raises boundary IoU.
+name: e3_weighted_loss
+freeze_backbone: false
+lr_head: 0.001
+lr_backbone: 0.0001
+epochs: 10
+class_weighting: median_frequency
