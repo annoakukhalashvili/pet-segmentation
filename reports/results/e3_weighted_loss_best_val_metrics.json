@@ -1,0 +1,15 @@
+{
+  "epoch": 9,
+  "train_loss": 0.2267,
+  "seconds": 25.5,
+  "val_mean_iou": 0.7594,
+  "val_mean_dice": 0.8516,
+  "val_foreground_iou": 0.8747,
+  "val_pixel_accuracy": 0.9037,
+  "val_iou_background": 0.9049,
+  "val_dice_background": 0.9501,
+  "val_iou_pet": 0.8549,
+  "val_dice_pet": 0.9218,
+  "val_iou_boundary": 0.5185,
+  "val_dice_boundary": 0.6829
+}
